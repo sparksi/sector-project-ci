@@ -1,5 +1,5 @@
 {
-    "name": "sparksinteractive/sector-project",
+    "name": "sparksi-ci/sector-project",
     "type": "project",
     "description": "A composer-based Drupal project template using Sector.",
     "homepage": "https://www.sector.org.nz",
@@ -42,6 +42,10 @@
         }
     },
     "repositories": {
+        "sparksinteractive/sector-distribution": {
+          "type": "git",
+          "url": "https://git.drupalcode.org/project/sector.git"
+        },
         "packagist.drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
